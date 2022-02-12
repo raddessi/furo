@@ -86,4 +86,4 @@ html_css_files = ["pied-piper-admonition.css"]
 #
 
 smv_branch_whitelist = r"^main$"  # do not whitelist any branches except main
-smv_tag_whitelist = r"^v\d+\.\d+\.\d+$"
+smv_tag_whitelist = r"^\d{4}\.\d{2}\.\d{2}$"
