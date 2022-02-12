@@ -54,6 +54,7 @@ doc = [
   "sphinx-copybutton",
   "sphinx-design",
   "sphinx-inline-tabs",
+  "sphinx-multiversion",
 ]
 
 [project.entry-points]

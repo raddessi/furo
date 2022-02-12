@@ -37,6 +37,7 @@ extensions = [
     "sphinx_copybutton",
     "sphinx_design",
     "sphinx_inline_tabs",
+    "sphinx_multiversion",
 ]
 templates_path = ["_templates"]
 
@@ -79,3 +80,10 @@ language = "en"
 
 html_static_path = ["_static"]
 html_css_files = ["pied-piper-admonition.css"]
+
+#
+# -- Options for sphinx-multiversion -------------------------------------------------
+#
+
+smv_branch_whitelist = r"^main$"  # do not whitelist any branches except main
+smv_tag_whitelist = r"^v\d+\.\d+\.\d+$"

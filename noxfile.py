@@ -70,7 +70,7 @@ def docs(session):
     session.install(".[doc]")
 
     # Generate documentation into `build/docs`
-    session.run("sphinx-build", "-b", "dirhtml", "-v", "docs/", "build/docs")
+    session.run("sphinx-multiversion", "docs/", "build/docs")
 
 
 @nox.session(name="docs-live", reuse_venv=True)
